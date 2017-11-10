@@ -1,3 +1,4 @@
+//Hugo Hernández Aceves, el valor para veinte es 45.
 #include <iostream>
 using namespace std;
 
