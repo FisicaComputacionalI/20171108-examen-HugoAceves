@@ -32,17 +32,20 @@ int main (){
       while(isPrime(p)==1){
 	cout << "ciclo isPrime, S= " << S << ",p= " << p << endl;
 	cout << " no es primo  " << p << endl; 
+	//No entiendo porque añadiste estas líneas.
 	if((p%2)==0) p=p+1;
 	if((p%2)!=0) p=p+2;
 	cout << "final ciclo isPrime, S= " << S << ",p= " << p << endl;
       }  
       S=S-p;
+      //No entiendo porque añadiste estas líneas.
       if((p%2)==0) p=p+1; 
       if((p%2)!=0) p=p+2;
       cout << "final ciclo p<S, S= " << S << ",p= " << p << endl;
     }
 
     S=S-1;
+    //No entiendo porque añadiste estas líneas.
     if((p%2)==0) p=p+1; 
     if((p%2)!=0) p=p+2;
     cout << "final ciclo S!=0, S= " << S << ",p= " << p << endl;

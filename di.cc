@@ -13,10 +13,11 @@ int main()
       cout<<"x="<<x<<endl;
       x=x+2;}
   }
-  while(x>5){
+  //Estas líneas no están descritas en el digrama de flujo.
+  /* while(x>5){
     cout<<"x="<<x<<endl;
     cin>>x;
-  }
+    }*/
 
   return 0;
 }
